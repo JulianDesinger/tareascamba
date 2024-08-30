@@ -17,12 +17,12 @@
         <h1>Registrarse</h1>
         <hr>
         <i class="fa-solid fa-user"></i>
-    <label>Nombres</label>
-    <input type="text" name="usuario" placeholder="Nombre de Usuario">
-    <i class="fa-solid fa-user"></i>
-    <label>Apellidos</label>
-    <input type="text" name="Apellido" placeholder="Apellido de Usuario">
-    <i class="fa-solid fa-user"></i>
+    <label>Nombres y apellidos</label>
+    <input type="text" name="usuario" placeholder="Nombre y apellido">
+    <i class="fa-solid fa-envelope"></i>
+    <label>Correo</label>
+    <input type="text" name="Apellido" placeholder="Correo">
+    <i class="fa-solid fa-phone"></i>
     <label>Numero</label>
     <input type="text" name="numero" placeholder="Numero de celular">
     <i class="fa-solid fa-unlock"></i>
