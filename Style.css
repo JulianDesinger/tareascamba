@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(236, 235, 235, 0.996);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+
+
+}
+/**/
+form{
+    width: 600px;
+    border:  2px solid,rgb(0, 0, 0) ;
+    padding:  6rem;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);/*color de iniciar sesion y logos*/
+}
+h1{
+    display: block;
+    border: 2px solid,black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+label{
+    color: rgb(0, 0, 0);/*colores de Usuario y clave*/
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+    display: block;
+    border: 2px solid,black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button{/*boton de iniciar sesion*/
+    float: right;
+    background-color: rgb(19, 10, 202);
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: rgb(187, 188, 191);
+    color: black;
+}
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.registrofondo{
+    background-color: aliceblue;
+}
+.bodyfondo{
+    background-image: linear-gradient(90deg, #00ae1a 0%, #86d869 35%, #00d5ff 100%);
+}
